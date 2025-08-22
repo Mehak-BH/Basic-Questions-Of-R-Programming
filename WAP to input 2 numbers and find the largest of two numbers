@@ -1,0 +1,9 @@
+{num1 <- as.numeric(readline("Enter first number: "))
+num2 <- as.numeric(readline("Enter second number: "))
+if (num1 > num2) {
+  cat("The largest number is:", num1, "\n")
+} else if (num2 > num1) {
+  cat("The largest number is:", num2, "\n")
+} else {
+  cat("Both numbers are equal.\n")
+}}
