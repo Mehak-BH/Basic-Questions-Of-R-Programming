@@ -1,0 +1,8 @@
+{principal <- as.numeric(readline("Enter Principal Amount: "))
+rate <- as.numeric(readline("Enter Rate of Interest (%): "))
+time <- as.numeric(readline("Enter Time (in years): "))
+simple_interest <- (principal * rate * time) / 100
+cat("Principal Amount = ", principal, "\n")
+cat("Rate of Interest = ", rate, "%\n")
+cat("Time             = ", time, "years\n")
+cat("Simple Interest  = ", simple_interest, "\n")}
