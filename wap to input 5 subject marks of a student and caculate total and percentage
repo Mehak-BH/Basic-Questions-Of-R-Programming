@@ -1,0 +1,8 @@
+{marks <- numeric(5)   
+for (i in 1:5) {
+   marks[i] <- as.numeric(readline(paste("Enter marks of subject", i, ": ")))
+}
+total <- sum(marks)
+percentage <- (total / 500) * 100
+cat("Total Marks = ", total, "\n")
+cat("Percentage = ", percentage, "%\n")}
