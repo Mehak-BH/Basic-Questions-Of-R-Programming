@@ -1,0 +1,6 @@
+{sales <- as.numeric(readline("Enter Sales Amount: "))
+discount <- 0.15 * sales
+net_amount <- sales - discount
+cat("Sales Amount   = ", sales, "\n")
+cat("Discount (15%) = ", discount, "\n")
+cat("Net Amount     = ", net_amount, "\n")}
