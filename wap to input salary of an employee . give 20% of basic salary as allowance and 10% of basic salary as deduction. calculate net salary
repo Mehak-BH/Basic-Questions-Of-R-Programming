@@ -1,0 +1,8 @@
+{basic_salary <- as.numeric(readline("Enter Basic Salary: "))
+allowance <- 0.20 * basic_salary
+deduction <- 0.10 * basic_salary
+net_salary <- basic_salary + allowance - deduction
+cat("Basic Salary    = ", basic_salary, "\n")
+cat("Allowance (20%) = ", allowance, "\n")
+cat("Deduction (10%) = ", deduction, "\n")
+cat("Net Salary      = ", net_salary, "\n")}
